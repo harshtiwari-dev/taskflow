@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taskflow Kanban</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 
@@ -16,7 +18,18 @@
                 <h2>To Do</h2>
                 <span class="count">0</span>
             </div>
-            <div class="card-list"></div>
+            <div class="card-list">
+                <div class="task-card">
+                    <div class="card-top">
+                        <h3>Design homepage</h3>
+                        <span class="priority high">High</span>
+                    </div>
+                    <p class="card-desc">Create wireframes and finalize layout</p>
+                    <div class="card-footer">
+                        <span class="hours">3h</span>
+                    </div>
+                </div>
+            </div>
             <button class="add-task-btn">Add Task</button>
         </section>
 
@@ -58,4 +71,5 @@
 
     <script src="app.js"></script>
 </body>
+
 </html>

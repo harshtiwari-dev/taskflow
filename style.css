@@ -1,0 +1,37 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    background: #1e1e2e;
+    padding: 16px;
+    border-radius: 12px;
+    color: #e0e0e0;
+    gap: 12px;
+}
+
+.column-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.count {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2px 10px;
+    border-radius: 999px;
+
+}
+
+body {
+    background: #121212;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 24px;
+
+}

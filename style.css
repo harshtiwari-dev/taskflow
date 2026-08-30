@@ -35,3 +35,37 @@ body {
     padding: 24px;
 
 }
+
+.task-card{
+    background: #2a2a3d;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.card-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.priority{
+    padding: 2px 10px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.priority.high {
+    background: #ff4d4f;
+    color: #fff;
+}
+
+.priority.med {
+    background: #faad14;
+    color: #1e1e2e;
+}
+
+.priority.low {
+    background: #52c41a;
+    color: #1e1e2e;
+}

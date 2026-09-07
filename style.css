@@ -36,19 +36,19 @@ body {
 
 }
 
-.task-card{
+.task-card {
     background: #2a2a3d;
     padding: 12px;
     border-radius: 8px;
 }
 
-.card-top{
+.card-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.priority{
+.priority {
     padding: 2px 10px;
     border-radius: 999px;
     font-size: 0.8rem;
@@ -70,13 +70,13 @@ body {
     color: #1e1e2e;
 }
 
-.card-list{
+.card-list {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-.drawer-backdrop{
+.drawer-backdrop {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
@@ -88,7 +88,7 @@ body {
     transition: opacity 0.3s ease;
 }
 
-.task-drawer{
+.task-drawer {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -104,6 +104,22 @@ body {
     visibility: visible;
 }
 
-.task-drawer.open{
+.task-drawer.open {
     transform: translateX(0);
+}
+
+.close-drawer-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    cursor: pointer;
+    background: none;
+    border: none;
+    transition: color 0.2s ease;
+}
+
+.close-drawer-btn:hover {
+    color: #ff4d4f;
 }

@@ -13,3 +13,9 @@ backdrop.addEventListener('click', () => {
     drawer.classList.remove('open');
     backdrop.classList.remove('open');
 });
+
+let crossBtn = document.querySelector('.close-drawer-btn');
+crossBtn.addEventListener('click' , ()=>{
+    drawer.classList.remove('open');
+    backdrop.classList.remove('open');
+});

@@ -19,3 +19,8 @@ crossBtn.addEventListener('click' , ()=>{
     drawer.classList.remove('open');
     backdrop.classList.remove('open');
 });
+
+let form = document.querySelector('.task-form');
+form.addEventListener('submit',(event)=>{
+    event.preventDefault();
+})

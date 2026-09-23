@@ -84,14 +84,41 @@
             <button class="add-task-btn">Add Task</button>
         </section>
 
-        
+
     </div>
 
     <div class="drawer-backdrop"></div>
-    
+
     <div class="task-drawer">
-        New Task
-        <button class="close-drawer-btn">✕</button>
+
+        <div class="drawer-header">
+            <h2 class="drawer-title">New Task</h2>
+            <button class="close-drawer-btn">✕</button>
+        </div>
+
+        <form action="" class="task-form">
+            <div class="field-group">
+                <label for="taskTitle">Title</label>
+                <input type="text" id="taskTitle" name="title" placeholder="e.g. Design homepage">
+            </div>
+            <div class="field-group">
+                <label for="taskDesc">Description</label>
+                <textarea id="taskDesc" name="description" placeholder="..."></textarea>
+            </div>
+            <div class="field-group">
+                <label for="taskPriority">Priority</label>
+                <select id="taskPriority" name="priority">
+                    <option value="high">High</option>
+                    <option value="med">Med</option>
+                    <option value="low">Low</option>
+                </select>
+            </div>
+            <div class="field-group">
+                <label for="taskHours">Estimated Hours</label>
+                <input type="number" id="taskHours" name="hours" min="0" step="0.5" placeholder="e.g. 2">
+            </div>
+            <button type="submit" class="submit-task-btn">Add Task</button>
+        </form>
     </div>
 
 
